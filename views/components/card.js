@@ -16,7 +16,7 @@ function Card() {
     return ( 
         <View style={styles.card}>
             <View style={[styles.headerDevice,{flex:1}]}>
-                {/* <Image style={styles.mifiLetra} source={require('../../assets/img/MIFI-2.png')}/> */}
+                <Image style={styles.mifiLetra} source={require('../../assets/img/MIFI-2.png')}/>
                 <Text style={styles.dateActivation}>Activado desde:</Text> 
                 <Text style={[styles.infoCenter, styles.text]}>10/11/22</Text> 
             </View>
@@ -38,9 +38,9 @@ function Card() {
                         <Text style={styles.text}>email</Text>
                     </View>
                 </View>
-                {/* <View style={{flex:1}}>
+                <View style={{flex:1}}>
                     <Image style={styles.mifiDevice} source={require('../../assets/img/MIFI.png')}/>
-                </View> */}
+                </View>
             </View>
             <Pressable style={styles.btnConsumos} onPress={()=> onClick(onClick)}><Text style={styles.text}>Consumos de datos</Text></Pressable>
             {/* <Modal transparent={true}  visible={modalConsumo}>
@@ -56,7 +56,8 @@ const styles = StyleSheet.create({
         alignItems:'center',
         // justifyContent:'center',
         width:'100%',
-        // marginVertical: 40,
+        // marginVertical: 50,
+        marginHorizontal: 20 ,
         borderWidth: 2,
         borderStyle: 'solid',
         borderRadius: 15,

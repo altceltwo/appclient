@@ -33,7 +33,7 @@ const Panel = () => {
                 </Modal>
             </View>
             <View style={styles.body}>
-            <Card></Card>
+            {/* <Card></Card> */}
                 {/* {
                     useGetDevice.length === 0 ? <Text>Aún no cuenta con dispositivos</Text> :
                     <View style={{flex: 1}}>
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
         marginVertical: 100,
         height: 400,
         alignContent: 'center',
-        // backgroundColor:'red'
+        backgroundColor:'red'
     },
     addDevice:{
         flex:1,

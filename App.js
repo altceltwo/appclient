@@ -1,12 +1,15 @@
 import React from 'react';
-import Panel from './views/pages/Panel';
+import { NavigationContainer } from '@react-navigation/native';
+import BottomTab from './routes/BottomTabs';
 
 
 const App = () => {
 
   return (
     <>
-      <Panel/>
+      <NavigationContainer>
+        <BottomTab/>
+      </NavigationContainer>
     </>
   );
 };

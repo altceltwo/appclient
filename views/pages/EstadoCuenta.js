@@ -1,6 +1,6 @@
 import React from "react";
 import {View, Text} from 'react-native'
-const Register = () => {
+const EstadoCuenta = () => {
     return ( 
         <View>
             <Text>Perfil de usuario</Text>
@@ -8,4 +8,4 @@ const Register = () => {
      );
 }
  
-export default Register;
+export default EstadoCuenta;
